@@ -1,6 +1,6 @@
 @{
     RootModule = 'DSCTools.psm1'
-    ModuleVersion = '1.8.0.6'
+    ModuleVersion = '1.8.0.12'
     GUID = 'ef697881-00e6-48ce-a60e-e6f4cd248d2b'
     Author = 'Daniel Scott-Raynsford'
     CompanyName = ''
@@ -49,7 +49,7 @@
 RootModule = 'DSCTools.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.8.0.6'
+ModuleVersion = '1.8.0.12'
 
 # ID used to uniquely identify this module
 GUID = 'ef697881-00e6-48ce-a60e-e6f4cd248d2b'
@@ -130,4 +130,5 @@ AliasesToExport = '*'
 # DefaultCommandPrefix = ''
 
 }
+
 

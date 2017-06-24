@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Moved to a new repository.
+- Added an AppVeyor CI/CD release pipeline.
+- Added code coverage support (no tests yet).
+
 ## 1.7.0.0
 
 - Added SkipConnectionCheck parameter to some cmdlets to prevent checking of connection

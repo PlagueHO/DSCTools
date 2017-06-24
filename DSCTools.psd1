@@ -14,7 +14,7 @@
     TypesToProcess = @()
     FormatsToProcess = @()
     # NestedModules = @()
-    # FunctionsToExport = @()
+    FunctionsToExport = '*'
     # CmdletsToExport = @()
     VariablesToExport = @()
     AliasesToExport = @()

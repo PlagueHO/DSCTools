@@ -14,7 +14,7 @@ $ConfigurationData = @{
 
 configuration Config_PlagueHO
 {
-	Import-DSCResource -ModuleName 'PSDesiredStateConfiguration'
+    Import-DSCResource -ModuleName 'PSDesiredStateConfiguration'
 
     node $allnodes.NodeName
     {
@@ -38,27 +38,27 @@ configuration Config_PlagueHO
             DependsOn = '[File]ModulesFolderCreate'
         } # File ReadmeCreate
                       
-		Archive PSWindowsUpdateModule
-		{
-			Destination = 'c:\program files\windowspowershell\modules\'
-			Path = '\\plague-pdc.plagueho.com\public\PSModules\PSWindowsUpdate.zip'
-			Ensure = 'Present'
-			Force = $True
-			CheckSum = 'SHA-256'
-			Validate = $True
+        Archive PSWindowsUpdateModule
+        {
+            Destination = 'c:\program files\windowspowershell\modules\'
+            Path = '\\plague-pdc.plagueho.com\public\PSModules\PSWindowsUpdate.zip'
+            Ensure = 'Present'
+            Force = $True
+            CheckSum = 'SHA-256'
+            Validate = $True
             DependsOn = '[File]ModulesFolderCreate'
-		}
+        }
 
-		Archive CoreFigModule
-		{
-			Destination = 'c:\program files\windowspowershell\modules\'
-			Path = '\\plague-pdc.plagueho.com\public\PSModules\CoreFig.zip'
-			Ensure = 'Present'
-			Force = $True
-			CheckSum = 'SHA-256'
-			Validate = $True
+        Archive CoreFigModule
+        {
+            Destination = 'c:\program files\windowspowershell\modules\'
+            Path = '\\plague-pdc.plagueho.com\public\PSModules\CoreFig.zip'
+            Ensure = 'Present'
+            Force = $True
+            CheckSum = 'SHA-256'
+            Validate = $True
             DependsOn = '[File]ModulesFolderCreate'
-		}
+        }
 
         # Write a Completion Log Entry
         Log WriteCompleteLog

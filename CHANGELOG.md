@@ -1,6 +1,6 @@
 # Change Log
 
-## Unreleased
+## 1.8.0.6
 
 - Moved to a new repository.
 - Added an AppVeyor CI/CD release pipeline.
@@ -44,3 +44,4 @@
 ## 1.0.0.0
 
 - Initial Version
+

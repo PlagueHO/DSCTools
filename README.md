@@ -1,5 +1,7 @@
 # DSCTools
 
+[![Build status](https://ci.appveyor.com/api/projects/status/8551crmkmaepb6t7?svg=true)](https://ci.appveyor.com/project/PlagueHO/dsctools)
+
 This module provides helper functions for setting up and using Desired State Configuration.
 
 ## Overview

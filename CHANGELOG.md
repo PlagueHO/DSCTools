@@ -1,6 +1,6 @@
 # Change Log
 
-## Unreleased
+## 1.8.0.31
 
 - Clean up code standards.
 - Converted all cmdlets to only output Verbose messages if Verbose specified.
@@ -50,5 +50,6 @@
 ## 1.0.0.0
 
 - Initial Version
+
 
 

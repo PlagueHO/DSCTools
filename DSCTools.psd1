@@ -1,6 +1,6 @@
 @{
     RootModule = 'DSCTools.psm1'
-    ModuleVersion = '1.8.0.25'
+    ModuleVersion = '1.8.0.31'
     GUID = 'ef697881-00e6-48ce-a60e-e6f4cd248d2b'
     Author = 'Daniel Scott-Raynsford'
     CompanyName = ''
@@ -34,5 +34,6 @@
     HelpInfoURI = 'https://github.com/PlagueHO/DSCTools/blob/master/README.md'
     # DefaultCommandPrefix = ''
 }
+
 
 

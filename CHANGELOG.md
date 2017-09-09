@@ -1,5 +1,11 @@
 # Change Log
 
+## Unreleased
+
+- Clean up code standards.
+- Converted all cmdlets to only output Verbose messages if Verbose specified.
+- Fixed Publish-DscPullResources to handle modules in version folders.
+
 ## 1.8.0.6
 
 - Moved to a new repository.
